@@ -1,0 +1,19 @@
+name: mouse_imaging_RHEL9
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.9
+  - numpy=1.21
+  - scipy
+  - matplotlib
+  - seaborn
+  - pandas=1.5.3
+  - jupyterlab
+  - tifffile
+  - anndata
+  - umap-learn
+  - conda-build
+  - pip:
+      - pyabf
+      - scanimage-tiff-reader>=1.4.1
+      - igraph
